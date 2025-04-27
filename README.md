@@ -34,30 +34,35 @@ pip install experta
 
 ## Installation and Setup
 1. Clone the repository:
-   ```bash
-git clone https://github.com/YourUsername/lab-2-KBS.git
-cd lab-2-KBS
-```
+   ```
+   bash
+   git clone https://github.com/YourUsername/lab-2-KBS.git
+   cd lab-2-KBS
+   ```
 2. (Optional) Create and activate a virtual environment:
-   ``` bash
-python3 -m venv env
-source env/bin/activate
+   ```
+   bash
+   python3 -m venv env
+   source env/bin/activate
    ```
 3. Install dependencies:
-   ```bash
-pip install experta
-```
+   ```
+   bash
+   pip install experta
+   ```
 
 ## Usage
 - **Interactive mode**: prompts for a use case and outputs a recommended configuration.
-  ```bash
-python engine.py
-```  
+  ```
+  bash
+   python engine.py
+  ```  
   _Enter one of: gaming, office, video_editing_  
 
 - **Automated demos**: runs all three scenarios in sequence.
-  ```bash
-python demo.py
+  ```
+  bash
+   python demo.py
 ```
 
 ## Sample Output
