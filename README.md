@@ -25,7 +25,10 @@ lab‑2‑KBS/
 - **Experta** library
 
 Install Experta via pip:
-```bash
+
+```
+
+bash
 pip install experta
 ```
 
@@ -36,10 +39,10 @@ git clone https://github.com/YourUsername/lab-2-KBS.git
 cd lab-2-KBS
 ```
 2. (Optional) Create and activate a virtual environment:
-   ```bash
+   ``` bash
 python3 -m venv env
 source env/bin/activate
-```
+   ```
 3. Install dependencies:
    ```bash
 pip install experta
